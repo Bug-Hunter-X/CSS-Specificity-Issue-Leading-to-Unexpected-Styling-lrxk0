@@ -1,0 +1,8 @@
+The solution addresses the specificity issue by using a more specific selector to override the general selector for `p` elements.  By adding the class `.container` to the selector, we ensure that the style only applies to the paragraph element within the container.
+
+```css
+.container p {
+  color: red;
+}
+```
+This ensures that the `.container p` selector will be more specific and will override the `p` selector.
